@@ -13,6 +13,11 @@
 		210A63BC255568C300FA2F6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210A63BA255568C300FA2F6E /* Main.storyboard */; };
 		210A63BE255568C400FA2F6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210A63BD255568C400FA2F6E /* Assets.xcassets */; };
 		210A63C1255568C400FA2F6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210A63BF255568C400FA2F6E /* LaunchScreen.storyboard */; };
+		210A63C92555690D00FA2F6E /* DataModelClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A63C82555690D00FA2F6E /* DataModelClasses.swift */; };
+		210A63CB2555691F00FA2F6E /* DataModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A63CA2555691F00FA2F6E /* DataModelManager.swift */; };
+		210A63CD2555693900FA2F6E /* FriendAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A63CC2555693900FA2F6E /* FriendAdd.swift */; };
+		210A63CF2555697600FA2F6E /* FriendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A63CE2555697600FA2F6E /* FriendList.swift */; };
+		210A63D125556BE500FA2F6E /* FriendScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A63D025556BE500FA2F6E /* FriendScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		210A63BD255568C400FA2F6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		210A63C0255568C400FA2F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		210A63C2255568C400FA2F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210A63C82555690D00FA2F6E /* DataModelClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelClasses.swift; sourceTree = "<group>"; };
+		210A63CA2555691F00FA2F6E /* DataModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelManager.swift; sourceTree = "<group>"; };
+		210A63CC2555693900FA2F6E /* FriendAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendAdd.swift; sourceTree = "<group>"; };
+		210A63CE2555697600FA2F6E /* FriendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendList.swift; sourceTree = "<group>"; };
+		210A63D025556BE500FA2F6E /* FriendScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +73,29 @@
 				210A63BD255568C400FA2F6E /* Assets.xcassets */,
 				210A63BF255568C400FA2F6E /* LaunchScreen.storyboard */,
 				210A63C2255568C400FA2F6E /* Info.plist */,
+				210A63D225556C7900FA2F6E /* Model */,
+				210A63D325556C8C00FA2F6E /* VC */,
 			);
 			path = Midterm_Test;
+			sourceTree = "<group>";
+		};
+		210A63D225556C7900FA2F6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				210A63C82555690D00FA2F6E /* DataModelClasses.swift */,
+				210A63CA2555691F00FA2F6E /* DataModelManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		210A63D325556C8C00FA2F6E /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				210A63CC2555693900FA2F6E /* FriendAdd.swift */,
+				210A63CE2555697600FA2F6E /* FriendList.swift */,
+				210A63D025556BE500FA2F6E /* FriendScene.swift */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				210A63CB2555691F00FA2F6E /* DataModelManager.swift in Sources */,
+				210A63CD2555693900FA2F6E /* FriendAdd.swift in Sources */,
+				210A63D125556BE500FA2F6E /* FriendScene.swift in Sources */,
 				210A63B9255568C300FA2F6E /* ViewController.swift in Sources */,
+				210A63CF2555697600FA2F6E /* FriendList.swift in Sources */,
 				210A63B5255568C300FA2F6E /* AppDelegate.swift in Sources */,
+				210A63C92555690D00FA2F6E /* DataModelClasses.swift in Sources */,
 				210A63B7255568C300FA2F6E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,7 +320,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6VRWXGQ5J;
 				INFOPLIST_FILE = Midterm_Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -292,6 +330,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.raniaarbash.Midterm-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,7 +340,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6VRWXGQ5J;
 				INFOPLIST_FILE = Midterm_Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +350,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.raniaarbash.Midterm-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
