@@ -18,6 +18,7 @@
 		210A63CD2555693900FA2F6E /* FriendAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A63CC2555693900FA2F6E /* FriendAdd.swift */; };
 		210A63CF2555697600FA2F6E /* FriendList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A63CE2555697600FA2F6E /* FriendList.swift */; };
 		210A63D125556BE500FA2F6E /* FriendScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210A63D025556BE500FA2F6E /* FriendScene.swift */; };
+		34904E69255622B700406C17 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34904E68255622B700406C17 /* FriendTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		210A63CC2555693900FA2F6E /* FriendAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendAdd.swift; sourceTree = "<group>"; };
 		210A63CE2555697600FA2F6E /* FriendList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendList.swift; sourceTree = "<group>"; };
 		210A63D025556BE500FA2F6E /* FriendScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendScene.swift; sourceTree = "<group>"; };
+		34904E68255622B700406C17 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				210A63C2255568C400FA2F6E /* Info.plist */,
 				210A63D225556C7900FA2F6E /* Model */,
 				210A63D325556C8C00FA2F6E /* VC */,
+				34904E68255622B700406C17 /* FriendTableViewCell.swift */,
 			);
 			path = Midterm_Test;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34904E69255622B700406C17 /* FriendTableViewCell.swift in Sources */,
 				210A63CB2555691F00FA2F6E /* DataModelManager.swift in Sources */,
 				210A63CD2555693900FA2F6E /* FriendAdd.swift in Sources */,
 				210A63D125556BE500FA2F6E /* FriendScene.swift in Sources */,

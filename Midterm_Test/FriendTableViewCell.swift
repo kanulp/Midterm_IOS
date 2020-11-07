@@ -10,12 +10,17 @@ import UIKit
 
 class FriendTableViewCell: UITableViewCell {
 
-    @IBOutlet var uiImageView: UIImageView!
-
-    @IBOutlet var txt_name: UITextView!
     
-    func setTitle(model : DataModelClass)  {
-        uiImageView?.image = model.image
-        txt_name.text = model.name! as String
-    }
+           
+           @IBOutlet var img: UIImageView!
+           
+        
+        @IBOutlet var txt_name: UILabel!
+        
+           
+           func setTitle(model : DataModelClass)  {
+               img?.image = model.image
+               txt_name.text = model.name! as String
+           }
+    
 }

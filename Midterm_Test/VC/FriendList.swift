@@ -28,6 +28,7 @@ class FriendList: UIViewController, UITableViewDelegate,UITableViewDataSource {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -96,16 +97,4 @@ class FriendList: UIViewController, UITableViewDelegate,UITableViewDataSource {
     }
     */
     
-}
-class FriendTableViewCell: UITableViewCell {
-       
-       @IBOutlet var img: UIImageView!
-       
-       @IBOutlet var txt_name: UITextView!
-       
-       
-       func setTitle(model : DataModelClass)  {
-           img?.image = model.image
-           txt_name.text = model.name! as String
-       }
 }
