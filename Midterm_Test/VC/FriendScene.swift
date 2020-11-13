@@ -14,7 +14,7 @@ class FriendScene: UIViewController,UIScrollViewDelegate{
     
     
     @IBOutlet var scrollImg: UIScrollView!
-    
+
     @IBOutlet var txt_fam: UITextView!
     @IBOutlet var txt_city: UITextView!
     @IBOutlet var txt_gender: UITextView!
